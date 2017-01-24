@@ -1,0 +1,178 @@
+.body {
+    background: #FFF;
+    background-repeat: no-repeat;
+    font-family: 'Actor', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    color: #002bff;
+    font-family: 'Actor', sans-serif;
+}
+
+h2 {
+    font-size: 2em;
+    color: #000;
+    font-family: 'Actor', sans-serif;
+}
+
+h2.centrato {
+    text-align: center;
+}
+
+
+h3 {
+    font-size: 1em;
+    color: #000;
+    font-family: 'Actor', sans-serif;
+}
+
+p {
+    font-size: 1.5em;
+    color: #000;
+    font-family: 'Actor', sans-serif;
+}
+
+p.juicy {
+    font: 2em;
+    color: orangered;
+    font-family: 'Lemonada', cursive;
+    text-align: center;
+}
+
+/*contenitore*/
+
+.wrapper{
+    
+    width: 95%;
+    height: auto;
+    
+    border-radius: 25px 25px 25px 25px;
+    margin: auto;
+            
+}
+
+.titolo {
+    font-family: 'Actor', sans-serif;
+    background-image: url(file:///home/svilupposw/Scrivania/arancia/images/sfondo1.jpg);
+    width: 95%;
+    text-align: center;
+    border: 3px solid orangered;
+    border-radius: 25px 25px 25px 25px;
+    margin: auto;
+    height: 150px;
+    
+}
+
+.main {
+    float: left;
+    width: 50%;
+    margin: 20px;    
+    text-align: justify;
+}
+
+.immagini {    
+    float: left;
+    margin: 20px;
+    width: 45%;
+    align-content: center;
+}
+
+/*footerprincipale*/
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;    
+    width: auto;
+    font-family: 'Actor', sans-serif;
+    font: 11px;        
+    text-align: center;
+    border-radius: 25px 25px 0px 0px;
+    padding: 2em;
+    color: #ccc;
+    background: orange;
+    border: 3px solid orangered;
+    clear: both;
+    
+}
+
+/*menu */
+
+.menu ul {
+    font-family: 'Actor', sans-serif;
+	padding: 0;
+	margin-left:250px; 
+    position: relative;    
+    top: 30px;    
+
+}
+
+.menu li {
+    z-index:20;
+    font-family: 'Actor', sans-serif;
+	position: relative;
+	float: left;
+	width: 300px;
+	text-align: center;
+	list-style: none;    
+    
+}
+
+.menu li a {
+    font-family: 'Actor', sans-serif;
+	background-color: seagreen;
+	color: #FFF;
+	padding: 15px 20px;
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid orangered; 
+	text-decoration: none;
+	display: block;
+}
+
+.menu li a:hover {
+    font-family: 'Actor', sans-serif;
+	background-color: lawngreen;
+	text-shadow: 0px 0px 1px #000;
+}
+
+.menu ul ul {
+    font-family: 'Actor', sans-serif;
+	position: absolute;
+	top: 53px;
+    margin-left: auto;   
+	visibility: hidden;
+}
+
+.menu ul li:hover ul {
+    font-family: 'Actor', sans-serif;
+	visibility: visible;
+}
+
+.menu ul ul:hover {
+    font-family: 'Actor', sans-serif;
+	box-shadow: 0px 10px 30px #d2d2d2;
+}
+
+.menu ul ul li a {
+    font-family: 'Actor', sans-serif;
+	background-color: seagreen;
+}
+
+.menu ul ul li a:hover {
+    font-family: 'Actor', sans-serif;
+	background-color: lawngreen;
+}
+
+.form1 {
+    font-family: 'Actor', sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    border: 3px solid orangered;
+    border-radius: 25px 25px 25px 25px;
+    padding: 50px;
+    line-height: 200%;
+    
+}
+
